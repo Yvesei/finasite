@@ -1,0 +1,821 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+nav,nav ul{
+    display: flex;
+    justify-content: space-between ;
+}
+nav{
+    margin: 1rem 4rem;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 1rem;
+    list-style-type: none;
+}
+.buttons{
+    display: flex;
+}
+
+.btn-cart {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    align-items: center;
+    background-color: #f24e1e;
+}
+svg {
+    height: 1em;
+    fill: white;
+    margin-right: 0.5em;
+}
+.buttons a{
+    padding: 0.7rem 1.4rem;
+    border-radius: 50px;
+    color: white;
+    
+}
+.number{
+    background-color: white;
+    border-radius: 99999%;
+    padding: 0.1rem 0.4rem;
+    margin-left: 0.6rem;
+    color: #f24e1e;
+}
+
+.sign-up{
+    background-color: #050038;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-top: 8rem;
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    max-width: 53rem;
+    align-self: center;
+    letter-spacing: -0.01em;
+}
+span {
+    background-color: rgb(162, 89, 255);
+    padding: 0 .5rem;
+    border-radius: 10px;
+    color: white;
+}
+.first-p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    max-width: 36rem;
+    align-self: center;
+    margin-bottom: 2rem;    
+}
+.header a, .last a{
+    background-color: #4262ff;
+    padding: 0.4rem 0.1rem;
+    border-radius: 40px;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    align-self: center;
+    font-weight: 700;
+    padding-right: 1.2rem;
+}
+.header a svg,.last a svg{
+    height: 1.6rem;
+    fill: white;
+    background-color: #f24e1e;
+    padding: 0.7rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+
+}
+.no-credit{
+    font-weight: 200;
+}
+.home-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-display-img{
+    width: 90%;
+    margin: 8rem 4rem;
+}
+.home-display p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color:#757575;;
+    margin-bottom: 2rem;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 200%;
+    overflow: hidden;
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+}
+.rev{
+    overflow: auto;
+}
+
+.features h1 {
+    text-align: center;
+    max-width: 57rem;
+    font-size: 3.5rem;
+    padding: 0 2rem;
+}
+
+.features-display{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem 0 4rem;
+}
+
+.fea{
+    border: 1px solid black;
+    border-radius: 15px;
+    max-width: 16rem;
+    padding: 3rem;
+    margin-right: 1rem;
+}
+
+.fea img,.fea h2{
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+
+.finance-sec{
+    background-color: #050038;
+    margin: 4rem 0;
+}
+.finance{
+    display: flex;
+    margin: 0rem 3rem;
+    align-items: center;
+    color: white;
+    padding: 8rem 0;
+}
+.img-text img{
+    width: 31rem;
+    
+}
+.text h2,.h2-i{
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+.text div h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.text div p {
+    max-width: 29rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.text a,.text-i a{
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.text a{
+    color: white;
+}
+.hr{
+    width: 67%;
+    height: 1px;
+
+    background-color: hsla(0, 0%, 100%, 0.2);
+}
+.text div{
+    margin: 2rem 0;
+}
+.learn-more svg{
+    margin-left: 1rem;
+    height: 1.5rem;
+}
+.learn-more{
+    display: flex;
+    align-items: center;
+}
+.text h3{
+    display: flex;
+    align-items: center;
+}
+.text-img{
+    display: flex;
+    margin: 8rem 4rem;
+    align-items: center;
+}
+.img-i{
+    margin-right: 4rem;
+}
+.text-i p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 156%;
+    margin-bottom: 2rem;
+}
+
+.text-i a{
+    color: black;
+}
+.text-i a svg{
+    fill: black;
+}
+
+.over{
+    display: flex;
+    width: 100%!important;
+}
+.over div{
+    display: flex;
+    align-items: center;
+}
+.over div h2{
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin-right: .6rem;
+}
+.rev-h2{
+    display: flex;
+    justify-content: center;
+}
+.h2-btn h2,.rev-h2 h2{
+    font-size: 3.5rem;
+}
+.h2-btn{
+    display: flex;
+    margin: 8rem 4rem;
+}
+.see{
+    background-color: #050038;
+    color: white;
+    border-radius: 50px;
+    padding: 0.7rem 1.4rem;
+}
+.see-div{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.things{
+    margin: 8rem 3rem;
+    display: flex;
+}
+.yellow, .blue,.dark,.grey{
+    border-radius: 15px;
+    margin: 2rem 1rem;
+    padding: 2.5rem 2.5rem;
+}
+.yellow{
+    padding-top: 9rem;
+    background-color: #ffd02f;
+    margin-bottom: 5rem;
+}
+.grey{
+    background-color: #f7f7f7;
+}
+.grey h3{
+    margin-bottom: 2rem;
+}
+.blue{
+    background-color: #4262ff;
+}
+.dark{
+    background-color: #050038;
+}
+
+
+.yellow h3,.grey h3{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.grey p svg{
+    fill: blue;
+}
+.grey p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.grey a{
+    margin-top: 4rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.grey a svg{
+    fill: black;
+}
+.right, .left{
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1.5rem; 
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.right img, .left img{
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+}
+.left{
+    margin-right: 3rem;
+}
+.right{
+    margin-left: 3rem;
+}
+
+.yellow img{
+    position: relative;
+    top: -15rem;
+    max-width: 280px;
+}
+.yellow h3{
+    margin-top: -12rem;
+}
+.yellow{
+    padding-top: 9rem;
+}
+
+.dark{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.dark svg {
+    fill: #2515d6;
+    height: 3rem;
+    margin-right: 1.4rem;
+}
+.rev-h2 h2{
+    text-align: center;
+    margin: 5rem 0;
+    max-width: 46rem;
+    align-self: center;
+    padding: 0 2rem;
+}
+.review{
+    width: 40rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    margin: auto 2rem;
+}
+.review p {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    line-height: 140%;
+    color: #050038;
+}
+.review div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.review div h3{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.review div h5{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.review hr{
+    margin: 2rem auto;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stars div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.social {
+    height: 34rem;
+}
+.last{
+    background-color: #050038;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.last h1{
+
+    padding: 2rem 5rem;
+    text-align: center;
+    max-width: 69rem;
+    margin: 0;
+    padding-top: 1rem;
+}
+.last p {
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 1.15rem;
+    line-height: 180%;
+    margin-bottom: 2rem;
+    max-width: 31rem;
+    align-self: center;
+}
+.last a{
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+}
+footer div div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-right: 1rem;
+}
+.nav-ft{
+    display: flex;
+    flex-direction: row;
+}
+.subs{
+    margin-right: 0;
+}
+.social-media img{
+    height: 2rem;
+    width: 2rem;
+}
+.social-media{
+    flex-direction: row;
+}
+.company img{
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+.company {
+    align-items: flex-start;
+}
+.company p{
+    margin-bottom: 1rem;
+}
+.social-media img{
+    margin-right: 1.2rem;
+}
+.ft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    margin: 2rem 4rem;
+}
+.menu h5, .template h5, .subs h5{
+    margin-bottom: 1rem;
+}
+.menu a,.template a{
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #050038;
+    font-weight: 400;
+}
+.subs input{
+    border-radius: 25px;
+    padding: 1rem;
+}
+.ft-rights{
+    margin-top: 2rem;
+}
+
+
+
+
+.pen{
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    height: 4rem;
+}
+.web{
+    position: absolute;
+    top: 26rem;
+    left: 10rem;
+    height: 4rem;
+}
+.user1{
+    position: absolute;
+    top: 35rem;
+    left: 5rem;
+    height: 4rem;
+}
+.user2{
+    position: absolute;
+    top: 12rem;
+    right: 5rem;
+    height: 3rem;
+}
+.lamp{
+    position: absolute;
+    top: 26rem;
+    right: 10rem;
+    height: 4rem;
+}
+.user3{
+    position: absolute;
+    top: 35rem;
+    right: 5rem;
+    height: 6rem;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1080px) {
+    ul{
+        display: none!important;
+    }
+    
+}
+
+ /* @media screen and (max-width: 562px) {
+    .header{
+        padding: 0 6rem;
+    }
+    
+} 
+@media screen and (max-width:937px) {
+    .header{
+        padding: 0 5.5rem;
+    }
+} */
+@media screen and (max-width:937px) {
+}
+@media screen and (max-width:1135px) {
+    h1{
+        max-width: 50rem;
+    }
+}
+@media screen and (max-width:920px) {
+    h1{
+        max-width: 40rem;
+    }
+}
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 3rem;
+        padding: 0 2rem;
+    }
+    .first-p{
+        font-size: 1rem;
+        max-width: 20rem;
+    }
+}
+@media screen and (max-width:690px) {
+    h1{
+        font-size: 3.5rem;
+        padding: 0 2rem;
+    }
+    .first-p{
+        
+        max-width: 30rem;
+    }
+}
+@media screen and (max-width:526px) {
+    h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:1140px) {
+    .web{
+        left: 5rem;
+    }
+}
+
+@media screen and (max-width:1038px) {
+    .lamp{
+        right: 5rem;
+    }
+}
+@media screen and (max-width:943px) {
+    .user2{
+        right: 2rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .pen{
+        left: 1rem;
+    }
+    .user1{
+        left: 2rem;
+    }
+    .user3{
+        right: 2rem;
+    }
+}
+@media screen and (max-width:760px) {
+    .pen{
+        top: 9rem;
+    }
+    .user2{
+        top: 9rem;
+    }
+}
+@media screen and (max-width:690px) {
+    .web{
+        top: 23rem;
+    }
+    .lamp{
+        top: 23rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .web{
+        left: 2rem;
+    }
+    .lamp{
+        right: 2rem;
+    }
+}
+@media screen and (max-width:950px) {
+    .features-display{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .features-display:last-child div{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:993px) {
+    .finance{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .finance div{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .text{
+        max-width: 34rem;
+    }
+    .text a{
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width:1170px) {
+    .img-i img{
+        width:27rem;
+        height: 27rem;
+    }
+    
+}
+
+@media screen and (max-width:1100px) {
+    .img-i img{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+@media screen and (max-width:1168px) {
+    .text-i h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .text-img{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 2rem;
+    }
+    .img-i{
+        margin: 0;
+        
+    }
+    .img-i img{
+        max-width: 30rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:639px) {
+    .over{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:860px) {
+    .h2-btn{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .h2-btn h2{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:1000px) {
+    .things{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+    .things div{
+        flex-basis: 75%;
+    }
+}
+
+
+
+@media screen and (max-width:780px) {
+    .ft{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ft div{
+        flex-basis: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
