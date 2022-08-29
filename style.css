@@ -566,6 +566,9 @@ footer{
     .signup-1{
         display: none;
     }
+    .btn-cart{
+        margin: 0;
+    }
     
 }
 
