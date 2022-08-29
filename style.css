@@ -21,7 +21,10 @@ nav ul li{
 .buttons{
     display: flex;
 }
-
+.row-cont{
+    overflow: auto;
+    width: 100%;
+}
 .btn-cart {
     display: flex;
     flex-direction: row;
@@ -113,7 +116,7 @@ span {
 }
 .home-display-img{
     width: 90%;
-    margin: 8rem 4rem;
+    margin: 8rem 1rem;
 }
 .home-display p {
     text-align: center;
@@ -560,9 +563,40 @@ footer{
     ul{
         display: none!important;
     }
+    .signup-1{
+        display: none;
+    }
     
 }
 
+@media screen and (max-width: 439px) {
+    h1{
+        font-size: 2.6rem!important;
+    }
+}
+@media screen and (max-width: 390px) {
+    h1{
+        font-size: 2.3rem!important;
+    }
+}
+@media screen and (max-width: 526px) {
+    .web,.lamp{
+        top: 21rem!important;
+    }
+}
+@media screen and (max-width: 439px) {
+    .web,.lamp{
+        top: 20rem!important;
+    }
+    .user3{
+        right: 0rem!important;
+    }
+}
+@media screen and (max-width: 393px) {
+    .web,.lamp{
+        top: 19.5rem!important;
+    }
+}
  /* @media screen and (max-width: 562px) {
     .header{
         padding: 0 6rem;
@@ -574,7 +608,10 @@ footer{
         padding: 0 5.5rem;
     }
 } */
-@media screen and (max-width:937px) {
+@media screen and (max-width:510px) {
+    nav{
+        margin: 1rem 1rem;
+    }
 }
 @media screen and (max-width:1135px) {
     h1{
@@ -674,10 +711,49 @@ footer{
     }
 }
 
+@media screen and (max-width:530px) {
+    .img-i img{
+        height: 100%!important;
+        width: 100%!important;
+    }
+    .text-img{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0!important;
+    }
+}
+@media screen and (max-width:487px) {
+    .h2-btn h2{
+        font-size: 3rem;
+    }
+    .h2-btn{
+        margin: 8rem 1rem;
+    }
+    .see-div{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width:570px) {
+    .nav-ft{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:438px) {
+    .h2-btn h2{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
 @media screen and (max-width:993px) {
     .finance{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .img-text{
+        display: none!important;
     }
     .finance div{
         display: flex;
@@ -775,8 +851,18 @@ footer{
     .things div{
         flex-basis: 75%;
     }
+    .yellow,.blue,.dark,.grey{
+        margin: 2rem 0;
+    }
 }
-
+@media screen and (max-width:670px) {
+    .left{
+        margin-right: 0;
+    }
+    .right{
+        margin-left: 0;
+    }
+}
 
 
 @media screen and (max-width:780px) {
