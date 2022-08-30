@@ -17,6 +17,11 @@ nav{
 nav ul li{
     padding: 0 1rem;
     list-style-type: none;
+    font-weight: 600;
+}
+nav ul li:hover{
+    color: #1000c5;
+    cursor: pointer;
 }
 .buttons{
     display: flex;
@@ -100,6 +105,17 @@ span {
     font-size: 1.1rem;
     padding-right: 1.2rem;
 }
+.header a:hover, .last a:hover{
+    background-color: rgb(162, 89, 255);
+}
+.btn-cart:hover{
+    background-color: #ff4b14;
+    cursor: pointer;
+}
+.sign-up:hover,.see:hover{
+    background-color: #1907bd;
+    cursor: pointer;
+}
 .header a svg,.last a svg{
     height: 1.6rem;
     fill: #4262ff;
@@ -132,6 +148,14 @@ span {
     display: flex;
     padding-bottom: 1rem;
 }
+.row::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .row {
+    -ms-overflow-style: none!important; 
+    scrollbar-width: none;  
+  }
 .row-1{
     display: flex;
     justify-content: space-around;
@@ -167,12 +191,27 @@ span {
     border-radius: 15px;
     max-width: 16rem;
     padding: 3rem;
-    margin-right: 1rem;
+    transition: transform .25s;
+    background-color: white;
 }
 
 .fea img,.fea h2{
     margin-bottom: 1.5rem;
 }
+.fea-cont{
+    background-color: #ffd02f;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+
+
+
+.fea:hover{
+    transform: translateX(-1rem) translateY(-1rem);
+    cursor: pointer;
+}
+
+
 h2{
     font-weight: 800;
     font-size: 2rem;
@@ -232,6 +271,11 @@ h2{
 .learn-more{
     display: flex;
     align-items: center;
+    color: #050038;
+}
+.learn-more:hover{
+    color: #1000c5;
+
 }
 .text h3{
     display: flex;
@@ -308,7 +352,7 @@ h2{
 .yellow{
     padding-top: 9rem;
     background-color: #ffd02f;
-    margin-bottom: 5rem;
+    margin-bottom: 3.5rem;
 }
 .grey{
     background-color: #f7f7f7;
@@ -385,7 +429,7 @@ h2{
     color: white;
 }
 .dark svg {
-    fill: #2515d6;
+    fill: #4262ff;
     height: 3rem;
     margin-right: 1.4rem;
 }
@@ -408,7 +452,13 @@ h2{
     font-size: 1.4rem;
     margin-bottom: 2rem;
     line-height: 140%;
+    width: 27rem;
     color: #050038;
+}
+@media screen and (max-width:560px) {
+    .review p{
+        width: auto;
+    }
 }
 .review div{
     display: flex;
@@ -439,6 +489,18 @@ h2{
 }
 .social {
     height: 34rem;
+}
+
+
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+
+
+.social-media img:hover{
+    cursor: pointer;
 }
 .last{
     background-color: #050038;
@@ -516,6 +578,9 @@ footer{
     text-decoration: none;
     color: #050038;
     font-weight: 400;
+}
+.menu a:hover,.template a:hover{
+    color: #1000c5;
 }
 .subs input{
     border-radius: 25px;
@@ -719,7 +784,7 @@ footer{
         justify-content: center;
         
     }
-    .features-display:last-child div{
+    .last-fea{
         margin-top: 2rem;
     }
 }
