@@ -45,9 +45,11 @@ svg {
 .number{
     background-color: white;
     border-radius: 99999%;
-    padding: 0.1rem 0.4rem;
+    padding: 0.2rem 0.45rem;
     margin-left: 0.6rem;
     color: #f24e1e;
+
+    font-size: 0.9rem;
 }
 
 .sign-up{
@@ -91,15 +93,17 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15rem;
+    width: 16rem;
     align-self: center;
     font-weight: 700;
+    padding-right: 1.2rem;
+    font-size: 1.1rem;
     padding-right: 1.2rem;
 }
 .header a svg,.last a svg{
     height: 1.6rem;
-    fill: white;
-    background-color: #f24e1e;
+    fill: #4262ff;
+    background-color: white;
     padding: 0.7rem;
     border-radius: 50%;
     margin-right: 1rem;
@@ -126,9 +130,7 @@ span {
 }
 .row{
     display: flex;
-    justify-content: space-around;
-    width: 200%;
-    overflow: hidden;
+    padding-bottom: 1rem;
 }
 .row-1{
     display: flex;
@@ -137,6 +139,12 @@ span {
 }
 .rev{
     overflow: auto;
+    margin-right: 1rem;
+}
+@media  screen and (max-width:1000px){
+    .features h1{
+        font-size: 2.7rem!important;
+    }
 }
 
 .features h1 {
@@ -145,7 +153,9 @@ span {
     font-size: 3.5rem;
     padding: 0 2rem;
 }
-
+.features h1 span{
+    background-color: #f24e1e;
+}
 .features-display{
     display: flex;
     justify-content: space-between;
