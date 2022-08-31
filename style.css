@@ -872,6 +872,16 @@ footer{
         font-size: 2.5rem;
     }
 }
+@media screen and (min-width:971px) {
+    .text-img-2{
+        flex-flow: row-reverse;
+        gap: 3rem;
+    } 
+    .text-img-2 div{
+        margin: 0;
+        gap: 1rem;
+    }  
+}
 
 @media screen and (max-width:970px) {
     .text-img{
