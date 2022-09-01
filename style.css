@@ -6,8 +6,8 @@ html{
     font-family: 'Plus Jakarta Sans', sans-serif;
     overflow-x: hidden;
 }
-.logo svg,#logo-8{
-    height: 2rem;
+.logo svg{
+    height: 3rem;
 }
 #logo-8{
     margin-bottom: 1rem;
@@ -197,14 +197,12 @@ span {
     }
 }
 .company svg{
-    height: 2rem!important;
+    height: 5rem!important;
+}
+.ft-logo{
+    height: 4em;
 }
 
-@media screen and (max-width:780px){
-    .company svg{
-        height: 4rem!important;
-    }
-}
 .fea{
     border: 1px solid black;
     border-radius: 15px;
@@ -658,6 +656,7 @@ footer{
 }
 
 @media screen and (max-width: 1080px) {
+    
     .ul-nav{
         display: none!important;
     }
