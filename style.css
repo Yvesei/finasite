@@ -196,6 +196,15 @@ span {
         margin-right: 0!important;
     }
 }
+.company svg{
+    height: 2rem!important;
+}
+
+@media screen and (max-width:780px){
+    .company svg{
+        height: 4rem!important;
+    }
+}
 .fea{
     border: 1px solid black;
     border-radius: 15px;
