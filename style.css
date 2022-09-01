@@ -6,7 +6,7 @@ html{
     font-family: 'Plus Jakarta Sans', sans-serif;
     overflow-x: hidden;
 }
-nav,nav ul{
+nav,.ul-nav{
     display: flex;
     justify-content: space-between ;
 }
@@ -14,12 +14,12 @@ nav{
     margin: 1rem 4rem;
     align-items: center;
 }
-nav ul li{
+.ul-nav li{
     padding: 0 1rem;
     list-style-type: none;
     font-weight: 600;
 }
-nav ul li:hover{
+.ul-nav li:hover{
     color: #1000c5;
     cursor: pointer;
 }
@@ -633,10 +633,63 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.ul-ham{
+    display: none;
+}
 
 @media screen and (max-width: 1080px) {
-    ul{
+    .ul-nav{
         display: none!important;
+    }
+    .ham{
+        display: block!important;
+        z-index: 2;
+        height: 2rem;
+        width: 2rem;
+        margin-left: 1rem;
+    }
+    .ham svg:hover{
+        fill: #1302cf;
+        cursor: pointer;
+    }
+    .ham svg{
+        fill: #050038;
+        height: 2rem;
+    }
+    .buttons{
+        align-items: center;
+    }
+    nav{
+        z-index: 3;
+    }
+    .ul-ham{
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 1rem 4rem;
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: 600;
+        z-index: 2;
+        display: block;
+    }
+    .ul-ham-top{
+        top: -16rem; 
+    }
+
+    .ul-ham-down{
+        
+        top: auto;
+    }
+    .ul-ham li{
+        margin-bottom: 1rem;
+    }
+    .ul-ham li:hover{
+        color: #1000c5;
+        cursor: pointer;
     }
     .signup-1{
         display: none;
