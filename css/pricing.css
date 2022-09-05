@@ -4,14 +4,22 @@
 
 .subscriptions {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-
+    gap: 5rem;
 }
 
 .sec {
     margin: 5rem 4rem;
 }
+
+@media screen and (max-width:600px) {
+
+    .sec {
+        margin: 4rem 1rem;
+    }
+}
+
 
 .subs {
     border: 1px solid black;
@@ -251,7 +259,8 @@ h1 {
 
 .review {
     margin: 0;
-
+    max-width: 40rem;
+    width: auto;
 }
 
 .purple-rev,
@@ -293,4 +302,68 @@ h1 {
     margin: 2rem auto !important;
     height: 1px;
     background-color: white;
+}
+
+@media screen and (max-width:1032px) {
+    .entre {
+        flex-direction: column;
+    }
+
+    .right-entre {
+        width: 70%;
+    }
+
+}
+
+.first-p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*  Managing  */
+
+@media screen and (max-width:952px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:577px) {
+    .roww {
+        flex-direction: column;
+    }
+
+}
+
+
+/* *******   managing   ****** */
+
+@media screen and (max-width:856px) {
+    .rev-h2 h2 {
+
+        width: 26rem;
+    }
+
+}
+
+@media screen and (max-width:511px) {
+    .rev-h2 h2 {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:447px) {
+    .rev-h2 h2 {
+        font-size: 2.5rem !important;
+
+    }
+
+    .rev-h2 h2 {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
