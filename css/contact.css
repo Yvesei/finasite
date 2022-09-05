@@ -1,0 +1,183 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 3rem;
+    border-radius: 15px;
+    text-align: start;
+    gap: 1.3rem !important;
+    width: 28rem;
+}
+
+.text-img {
+    justify-content: space-between;
+}
+
+.text-i h1 {
+    max-width: 28rem;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+}
+
+.text-i p {
+    max-width: 30rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.adress {
+    max-width: 16rem !important;
+}
+
+.text-i h3 {
+    margin: 0;
+    margin-bottom: 1rem;
+
+}
+
+.text-i {
+    text-align: start;
+    gap: 0 !important;
+}
+
+.text-img {
+    padding: 6rem 2.5rem;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header {
+    background-color: rgb(9, 9, 75);
+    color: white;
+    font-weight: 300;
+}
+
+.img-i {
+    box-shadow: none;
+}
+
+.contact p {
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.contact a {
+    margin: 0;
+    padding: 0.8rem 0.1rem !important;
+}
+
+.contact input,
+textarea {
+    font-weight: 300;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 1rem 1.5rem 1rem 3rem;
+    border: 1px solid black;
+}
+
+.name,
+.email,
+.subject {
+    background-position: 16px 12px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.msg {
+    background-position: 16px 17px;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+.name {
+    background-image: url(../images/name.svg);
+}
+
+.email {
+    background-image: url(../images/email.svg);
+}
+
+.subject {
+    background-image: url(../images/subject.svg);
+}
+
+.msg {
+    background-image: url(../images/msg.svg);
+}
+
+
+.answers-sec {
+    background-color: #f2f2f2;
+    padding: 3rem 0;
+}
+
+.answers h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cubes {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+    gap: 2.5rem;
+}
+
+.cube h4 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.cube {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+    padding: 2rem;
+    border-radius: 15px;
+    color: white;
+    flex-basis: 30%;
+
+}
+
+.cube-green {
+    background-color: #a6c03d;
+}
+
+.cube-purple {
+
+    background-color: #a259ff;
+
+
+}
+
+.cube-orange {
+    background-color: #f24e1e;
+
+}
+
+.hea {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cube p {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.hea h4 {
+    margin-right: 1rem;
+}
+
+.cube a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
