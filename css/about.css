@@ -297,6 +297,9 @@
 
 }
 
+.col h1 {
+    margin-bottom: 1rem;
+}
 
 .box {
     border: 1px solid black;
@@ -449,6 +452,13 @@
     }
 }
 
+@media screen and (max-width:360px) {
+    .left-feature h2 {
+        font-size: 1.6rem !important;
+
+    }
+
+}
 
 
 @media screen and (max-width:570px) {
