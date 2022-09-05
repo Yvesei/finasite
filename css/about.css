@@ -5,6 +5,8 @@
     justify-content: space-between;
     padding: 4rem 5rem;
     margin-top: 4rem;
+    flex-wrap: wrap;
+
 }
 
 .stats h1 {
@@ -14,12 +16,17 @@
 
 .col h2 {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
 }
 
 .col h2 span {
     padding: .4rem 1rem;
     border-radius: 5px !important;
+}
+
+.col {
+    margin: 1rem;
+
 }
 
 .col,
@@ -101,6 +108,7 @@
     border-radius: 15px;
     margin-right: 2rem;
     padding: 2rem;
+    width: 7rem;
 }
 
 .left-fea div,
@@ -109,6 +117,8 @@
     flex-direction: column;
     justify-content: center;
     max-width: 45rem;
+    padding: 0rem 1.3rem 0rem 0rem;
+    margin-left: -0.8rem;
 }
 
 .left-cont {
@@ -141,10 +151,11 @@
 
 .row {
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .row img {
-    margin: 0 4rem;
+    margin: 1rem 4rem;
 }
 
 .show {
@@ -181,10 +192,11 @@
 .col-p h2 {
     margin: 0;
     width: 14rem;
+    text-align: center;
 }
 
 .col-p h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
 }
 
 .team {
@@ -245,9 +257,10 @@
 
 .profiles {
     display: flex;
-    margin: 1rem 0;
-    justify-content: space-between;
+    margin: 4rem 0 0 0;
+    justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 
@@ -255,11 +268,13 @@
     font-size: 3rem;
     text-align: center;
     max-width: 38rem;
+
 }
 
 .timezone {
     display: flex;
     flex-direction: column;
+
 }
 
 .timezone h1 span {
@@ -278,6 +293,8 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
+
 }
 
 
@@ -287,6 +304,7 @@
     padding: 2rem 2rem;
     text-align: center;
     background-color: white;
+    margin: 1rem;
 }
 
 .box h3 {
@@ -296,4 +314,238 @@
 .box p {
     max-width: 18rem;
     color: rgba(5, 0, 56, 0.68);
+}
+
+.right-cont,
+.left-cont {
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+
+
+@media screen and (max-width:1078px) {
+
+    .feature-about {
+        flex-direction: column;
+    }
+
+    .left-feature {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-feature img {
+
+        width: 50%;
+        margin: 3rem auto;
+    }
+
+    .left-feature h2 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:949px) {
+    .show {
+        flex-wrap: wrap;
+        display: block;
+        margin: 0 2rem;
+    }
+
+    .disp {
+        border-left: 0px solid !important;
+        border-top: 1px solid black;
+        border-radius: 15px;
+    }
+}
+
+
+@media screen and (max-width:844px) {
+    .stats {
+        justify-content: space-around;
+    }
+
+    .stats div:last-child {
+        margin-right: 2.3rem;
+    }
+
+}
+
+@media screen and (max-width:678px) {
+    .stats {
+        flex-direction: column;
+    }
+
+    .stats {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .stats div:last-child {
+        margin-right: 0;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:668px) {
+
+    .timezone h1 {
+        font-size: 2.5rem;
+        max-width: 34rem;
+        padding: 0 2rem;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    .left-feature h2 {
+        font-size: 2rem !important;
+    }
+
+
+}
+
+@media screen and (max-width:530px) {
+
+    .right-fea img,
+    .left-fea img {
+        width: 4rem;
+        height: 4rem;
+        align-self: center;
+        padding: 3rem 2rem;
+    }
+
+
+}
+
+@media screen and (max-width:472px) {
+
+    .left-fea,
+    .right-fea {
+        flex-direction: column;
+    }
+
+    .left-fea div,
+    .right-fea div {
+        padding: 2rem;
+    }
+
+    .left-fea img,
+    .right-fea img {
+        border: none;
+        border-bottom: 1px solid black;
+        height: 4rem;
+        width: 4rem;
+        padding: 2rem 35%;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+
+
+@media screen and (max-width:570px) {
+    .timezone h1 {
+        padding: 0 1rem;
+    }
+
+    .timezone h1 span {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 526px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .disp {
+        padding: 2rem 0;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .team h1 {
+        padding: 0;
+    }
+
+    .team {
+        margin: 2rem 2rem;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .col h1 {
+        padding: 0;
+    }
+
+    .col {
+        margin: 1rem 0;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+
+    .header h1,
+    h2 {
+        font-size: 3.5rem;
+        padding: 0 2rem;
+    }
+
+    .left-feature img {
+        width: 80% !important;
+    }
+}
+
+
+
+@media screen and (max-width: 635px) {
+    .left-feature h2 {
+        font-size: 2.8rem;
+        max-width: 30rem;
+
+    }
+}
+
+@media screen and (max-width: 537px) {
+    .left-feature h2 {
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 446px) {
+    .p-h2 {
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .left-cont,
+    .right-cont {
+        margin: 0;
+    }
+
+    .right-fea div,
+    .left-fea div {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
