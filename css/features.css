@@ -44,6 +44,7 @@
     background-color: #f2f2f2;
     display: flex;
     padding: 2.5rem 0;
+    overflow: hidden;
 }
 
 .new {
@@ -54,6 +55,8 @@
     border-radius: 33px;
     padding: 14px 20px;
     background-color: white;
+
+    min-inline-size: fit-content;
 }
 
 .rating {
@@ -330,6 +333,10 @@
 
 }
 
+.row {
+    flex-wrap: wrap;
+}
+
 .text div img {
     margin-right: 1rem;
 }
@@ -353,4 +360,150 @@
 /* fix search bar */
 .nav-ft div {
     border: none;
+}
+
+@media screen and (max-width: 970px) {
+    .text-img {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .text-i {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .text-i h1,
+    .text-i p {
+        text-align: center;
+    }
+
+    .text-i a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 921px) {
+    .h1-rate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:860px) {
+
+    .h2-btn h2 {
+        margin-right: 0 !important;
+    }
+}
+
+.see-div {
+    flex-basis: auto;
+}
+
+.h2-btn h2 {
+    margin-right: 5rem;
+}
+
+.row,
+.strip,
+.text-img,
+.finance,
+.h2-btn {
+    justify-content: center;
+}
+
+@media screen and (max-width: 1018px) {
+    .both {
+        flex-wrap: wrap;
+    }
+
+    .blue-big,
+    .dark-small {
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .checks {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-display {
+        flex-wrap: wrap;
+
+    }
+
+    .fea-cont {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .checks div {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .blue-big {
+        padding: 1rem .8rem;
+    }
+}
+
+
+@media screen and (max-width: 487px) {
+    .img-blue {
+        height: 10rem;
+
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .text-img-3 {
+        flex-wrap: wrap;
+    }
+
+    .img-i-2 {
+        margin: 0 !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .img-i-yel img {
+        margin: 0;
+    }
+
+    .img-i-yel {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .fea-first {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.img-i-2 {
+    box-shadow: 11px 11px;
+    border-radius: 15px;
+    margin-right: 4rem;
+
+}
+
+@media screen and (max-width: 551px) {
+
+    .img-i-2,
+    .img-i-2 img {
+        width: 100%;
+        height: 100%;
+    }
 }
