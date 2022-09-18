@@ -126,6 +126,19 @@ textarea {
     justify-content: space-between;
     margin: 4rem 0;
     gap: 2.5rem;
+
+}
+
+@media screen and (max-width:1151px) {
+    .cubes {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cube {
+        max-width: 20rem;
+    }
 }
 
 .cube h4 {
@@ -141,7 +154,7 @@ textarea {
     padding: 2rem;
     border-radius: 15px;
     color: white;
-    flex-basis: 30%;
+    width: 21rem;
 
 }
 
@@ -180,4 +193,18 @@ textarea {
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+
+@media screen and (max-width:632px) {
+    .contact {
+        padding: 3rem 1rem;
+        max-width: 28rem !important;
+        width: auto;
+        margin: auto 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .text-i {
+        margin-top: 5rem;
+    }
 }
