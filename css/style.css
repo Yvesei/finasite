@@ -1288,3 +1288,7 @@ footer {
         flex-basis: 100%;
     }
 }
+
+.nav-ft div {
+    border: none;
+}

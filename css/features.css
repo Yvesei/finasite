@@ -358,9 +358,7 @@
 }
 
 /* fix search bar */
-.nav-ft div {
-    border: none;
-}
+
 
 @media screen and (max-width: 970px) {
     .text-img {
