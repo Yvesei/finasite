@@ -198,3 +198,32 @@
         margin: auto 1rem;
     }
 }
+
+.bl-btn-sml {
+    display: none;
+}
+
+@media screen and (max-width: 433px) {
+    .bl-btn-big {
+        display: none;
+    }
+
+    .w-input {
+        padding: 1rem 1.6rem;
+        width: 100%;
+
+    }
+
+    .bl-btn-sml {
+        display: block;
+        margin: 0.2rem 1rem;
+        width: 93%;
+    }
+
+    .search-container {
+        width: 93%;
+        transform: none;
+        margin: auto 1rem;
+    }
+
+}

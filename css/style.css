@@ -13,6 +13,18 @@ html {
     height: 2rem;
 }
 
+
+.pen,
+.web,
+.user1,
+.user2,
+.user3,
+.lamp {
+    z-index: -1 !important;
+}
+
+
+
 #logo-8 {
     margin-bottom: 1rem;
 }
